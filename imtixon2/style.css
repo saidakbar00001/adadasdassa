@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+header .chap{
+    display: flex;
+    align-items: center;
+}
+header .chap i{
+    font-size: 28px;
+    color: #ff3d00;
+    margin-right: 10px;
+}
+header .chap h2{
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+}
+.orta nav ul{
+    display: flex;
+    list-style: none;   
+    gap: 20px;
+  
+}
+.orta nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #8b8b8b;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+.orta nav ul li a:hover{
+    
+    color: #000000;
+    border-radius: 4px;
+}
+.ong i{
+    font-size: 24px;
+}
+.ong i:hover{
+    
+    background-color: #e0dddd;
+  
+}
+.swiper-slide .yozu{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: #fff;    
+    padding: 50px;
+  
+}
+.swiper-slide .yozu h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.swiper-slide .yozu h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+   margin-right: 100px;
+}
+.swiper-slide .yozu button{
+    padding: 12px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff3d00;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.swiper-slide .yozu button:hover{
+    background-color: #e63600;  
+}
+.swiper {
+      width: 100%;
+      height: 600px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+.img2 {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+   
+}
+
+.app{
+   
+     padding: 40px 0 ;
+     background: linear-gradient(92.68deg, rgba(217, 110, 38, 0.1) 0%, #F3ECE2 100%);
+
+}
+.select2 select{
+    padding: 8px;
+    border-radius: 12px;
+}
+
+input
+{
+    padding: 12px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.ota{
+    display: flex;
+}
+.ong2 {
+    margin-left: 500px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 700;
+    color: #c4661d; 
+    margin-top: 5px;
+}
+
+
+.info h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 2px;
+}
+
+
+.category {
+    font-size: 13px;
+    color: #777;
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 24px;
+    row-gap: 40px; 
+}
+
+.img12 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.section{
+    margin-top: 40px;
+    width: 100%;
+height: 310px;
+
+background-color: #F3ECE280;
+
+
+}
+.ota3{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+.button2{
+    padding: 12px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff3d00;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.chap2 h4{
+    font-size: 30px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+} 
+.chap2 p{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}   
+.orta2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
+.orta2 h4{
+    font-size: 30px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+} 
+.orta2 ul{
+    list-style: none;
+    padding: 0;
+}
+.orta2 ul li{
+    margin-bottom: 8px;
+}
+.orta2 ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+    transition: 0.3s;
+}
+.ong2 i{
+    font-size: 24px;
+    margin-right: 15px;
+    color: #555;
+    transition: 0.3s;
+}
+.ong2 i:hover{
+    color: #ff3d00;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.wishlist-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: #999;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.wishlist-btn.active {
+    color: red;
+}
+
+.card{
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.card:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #ff3d00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.ong  ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.ong  ul li a{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.orta ul li a{
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.orta ul li a:hover{
+    color: #000000;
+}
+.ong ul  li {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
